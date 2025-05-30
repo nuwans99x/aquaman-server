@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("aquaman-server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ac9de83eb72a66dd720a34f184d819c8aff6ec4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d18e17582cd753329159a08d7a6da090c1f9338")]
 [assembly: System.Reflection.AssemblyProductAttribute("aquaman-server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("aquaman-server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

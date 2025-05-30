@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace AquamanServer.Controllers
 {
@@ -7,29 +9,32 @@ namespace AquamanServer.Controllers
     [Route("api/[controller]")]
     public class ProductController : ControllerBase
     {
-        private static List<Product> Products = new List<Product>
+        private readonly ProductDbContext _context;
+
+        public ProductController(ProductDbContext context)
         {
-            new Product { Id = 1, Name = "Product 1", Price = 10.99M, Stock = 100 },
-            new Product { Id = 2, Name = "Product 2", Price = 20.99M, Stock = 50 }
-        };
+            _context = context;
+        }
 
         [HttpGet]
         public IActionResult GetProducts()
         {
-            return Ok(Products);
+            var products = _context.Products.ToList();
+            return Ok(products);
         }
 
         [HttpPost]
         public IActionResult AddProduct([FromBody] Product product)
         {
-            Products.Add(product);
-            return CreatedAtAction(nameof(GetProducts), new { id = product.Id }, product);
+            _context.Products.Add(product);
+            _context.SaveChanges();
+            return CreatedAtAction(nameof(GetProducts), new { id = product.ProductID }, product);
         }
 
         [HttpPut("{id}")]
         public IActionResult UpdateProduct(int id, [FromBody] Product updatedProduct)
         {
-            var product = Products.Find(p => p.Id == id);
+            var product = _context.Products.Find(id);
             if (product == null)
             {
                 return NotFound();
@@ -39,28 +44,38 @@ namespace AquamanServer.Controllers
             product.Price = updatedProduct.Price;
             product.Stock = updatedProduct.Stock;
 
+            _context.SaveChanges();
             return NoContent();
         }
 
         [HttpDelete("{id}")]
         public IActionResult DeleteProduct(int id)
         {
-            var product = Products.Find(p => p.Id == id);
+            var product = _context.Products.Find(id);
             if (product == null)
             {
                 return NotFound();
             }
 
-            Products.Remove(product);
+            _context.Products.Remove(product);
+            _context.SaveChanges();
             return NoContent();
         }
     }
 
+    public class ProductDbContext : DbContext
+    {
+        public ProductDbContext(DbContextOptions<ProductDbContext> options) : base(options) { }
+
+        public DbSet<Product> Products { get; set; }
+    }
+
     public class Product
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
+        public int ProductID { get; set; }
+        public string? Name { get; set; }
         public decimal Price { get; set; }
         public int Stock { get; set; }
+        public string ImageUrl { get; set; }
     }
 }
