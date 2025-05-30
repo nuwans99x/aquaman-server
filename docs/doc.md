@@ -65,6 +65,21 @@ Administrators have access to a management interface to:
 These tools ensure smooth store operations and efficient order fulfillment.
  
 ---
+
+## Optional Enhancements
+Teams are encouraged to implement additional features to enhance the shopping experience. Below are some ideas to consider:
+
+- Save favorite products for future purchase consideration.
+- Add a theme switcher (e.g., light/dark mode).
+- Display real-time product or stock updates without page refresh.
+- Suggest related products or recommendations based on user activity.
+- Enable voice-based product search using a device's microphone.
+- Add celebratory animations or visual effects for actions like order placement.
+- Allow installation of the platform as a web-based app.
+- Improve accessibility for users relying on assistive technologies.
+- Provide language selection options for a localized experience.
+- Persist shopping cart contents across sessions.
+- Introduce simple testing mechanisms to validate key workflows and interactions.
  
 ## Future Enhancements
 SmartCart is designed with flexibility in mind, allowing teams to expand its functionality with additional features as needed.

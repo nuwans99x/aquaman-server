@@ -31,3 +31,34 @@ C:\Projects\99x\vibe-hack\aquaman-server\obj\Debug\net8.0\refint\aquaman-server.
 C:\Projects\99x\vibe-hack\aquaman-server\obj\Debug\net8.0\aquaman-server.pdb
 C:\Projects\99x\vibe-hack\aquaman-server\obj\Debug\net8.0\aquaman-server.genruntimeconfig.cache
 C:\Projects\99x\vibe-hack\aquaman-server\obj\Debug\net8.0\ref\aquaman-server.dll
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\bin\Debug\net8.0\appsettings.json
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\bin\Debug\net8.0\aquaman-server.exe
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\bin\Debug\net8.0\aquaman-server.deps.json
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\bin\Debug\net8.0\aquaman-server.runtimeconfig.json
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\bin\Debug\net8.0\aquaman-server.dll
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\bin\Debug\net8.0\aquaman-server.pdb
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\obj\Debug\net8.0\aquaman-server.csproj.AssemblyReference.cache
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\obj\Debug\net8.0\aquaman-server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\obj\Debug\net8.0\aquaman-server.AssemblyInfoInputs.cache
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\obj\Debug\net8.0\aquaman-server.AssemblyInfo.cs
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\obj\Debug\net8.0\aquaman-server.csproj.CoreCompileInputs.cache
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\obj\Debug\net8.0\aquaman-server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\obj\Debug\net8.0\aquaman-server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\obj\Debug\net8.0\aquaman-server.sourcelink.json
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\obj\Debug\net8.0\scopedcss\bundle\aquaman-server.styles.css
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\obj\Debug\net8.0\aquaman-.F823DE3E.Up2Date
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\obj\Debug\net8.0\aquaman-server.dll
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\obj\Debug\net8.0\refint\aquaman-server.dll
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\obj\Debug\net8.0\aquaman-server.pdb
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\obj\Debug\net8.0\aquaman-server.genruntimeconfig.cache
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\obj\Debug\net8.0\ref\aquaman-server.dll
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\bin\Debug\net8.0\aquaman-server.staticwebassets.endpoints.json
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\IshrathR\OneDrive - 99x\Desktop\GoVibeHack\aquaman-server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
